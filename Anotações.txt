@@ -1,0 +1,12 @@
+AULA 1 -
+* O NodeJs foi criado e usa o conceito de requisições não-bloqueantes
+* A vantagem de se usar o TypeScript é facilitar o uso de outras pessoas da sua API
+* Desestruturação de Interfaces
+AULA 2 -
+* Beekeeper é uma ferramenta pa visualizar um banco de dados
+* Repositório é a camada que faz a comunicação entre o databas e as entidades em uma API
+* Quando se extende uma classe é possível fazer uso de seus métodos
+* Tratativas
+* Server -> Controller -> Service -> Etapas restantes do gerenciamento do database...
+AULA 3 - 
+AULA 4 - 
