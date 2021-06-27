@@ -9,4 +9,7 @@ AULA 2 -
 * Tratativas
 * Server -> Controller -> Service -> Etapas restantes do gerenciamento do database...
 AULA 3 - 
+* Tratamento e lançamento de exceções
+* Conceito de Middleware - Intermédio para interceptar ou seguir com uma requisição
 AULA 4 - 
+AULA 5 - 
