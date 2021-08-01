@@ -1,6 +1,6 @@
 import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
-export class CreateCompliments1624848741768 implements MigrationInterface {
+export class CreateCompliments1627837614975 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
 		await queryRunner.createTable(
@@ -29,15 +29,15 @@ export class CreateCompliments1624848741768 implements MigrationInterface {
 					type: "varchar"
 				},
 				{
-					name: "created_at",
-					type: "timespamp",
-					default: "now()"
-				},
-				{
-					name: "updated_at",
-					type: "timestamp",
-					default: "now()"
-				}
+                    name: "created_at",
+                    type: "timespamp",
+                    default: "now()"
+                },
+                {
+                    name: "updated_at",
+                    type: "timestamp",
+                    default: "now()"
+                }
 				], 
 				foreignKeys: [
 					{

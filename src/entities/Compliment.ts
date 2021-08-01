@@ -4,7 +4,8 @@ import {
 	Column, 
 	CreateDateColumn,
 	JoinColumn,
-	ManyToOne
+	ManyToOne,
+	UpdateDateColumn
 } from "typeorm";
 import { v4 as uuid } from "uuid"
 import { Tag } from "./Tag"
@@ -42,6 +43,9 @@ class Compliment {
 	
 	@CreateDateColumn()
 	created_at: Date
+
+	@UpdateDateColumn()
+	updated_at: Date
 	
 	constructor(){
 		if(!this.id){
